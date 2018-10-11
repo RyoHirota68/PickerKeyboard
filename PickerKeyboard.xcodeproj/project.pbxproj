@@ -12,6 +12,7 @@
 		1092E52E216EFF8E003CC006 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1092E52C216EFF8E003CC006 /* Main.storyboard */; };
 		1092E530216EFF8F003CC006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1092E52F216EFF8F003CC006 /* Assets.xcassets */; };
 		1092E533216EFF8F003CC006 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1092E531216EFF8F003CC006 /* LaunchScreen.storyboard */; };
+		1092E53B216EFFA5003CC006 /* PickerKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1092E53A216EFFA5003CC006 /* PickerKeyboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1092E52F216EFF8F003CC006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1092E532216EFF8F003CC006 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1092E534216EFF8F003CC006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1092E53A216EFFA5003CC006 /* PickerKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerKeyboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				1092E528216EFF8E003CC006 /* AppDelegate.swift */,
 				1092E52A216EFF8E003CC006 /* ViewController.swift */,
+				1092E53A216EFFA5003CC006 /* PickerKeyboard.swift */,
 				1092E52C216EFF8E003CC006 /* Main.storyboard */,
 				1092E52F216EFF8F003CC006 /* Assets.xcassets */,
 				1092E531216EFF8F003CC006 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1092E52B216EFF8E003CC006 /* ViewController.swift in Sources */,
+				1092E53B216EFFA5003CC006 /* PickerKeyboard.swift in Sources */,
 				1092E529216EFF8E003CC006 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NT2QPMCM6X;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PickerKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,7 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NT2QPMCM6X;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PickerKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
