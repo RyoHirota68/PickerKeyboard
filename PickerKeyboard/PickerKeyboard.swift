@@ -62,7 +62,7 @@ class PickerKeyboard: UIControl {
         let pickerView: UIPickerView = UIPickerView()
         pickerView.delegate = self
         pickerView.dataSource = self
-        pickerView.backgroundColor = UIColor.gray
+        pickerView.backgroundColor = UIColor.white
         pickerView.autoresizingMask = [.flexibleHeight]
         
         // SafeAreaに対応させる為にUIViewを挟む
